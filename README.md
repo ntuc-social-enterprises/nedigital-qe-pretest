@@ -1,4 +1,4 @@
-# QE NexusPreTest
+# QE NE Digital Pretest
 
   You can answer it as creative as you can, you can even show off what you know, use all the tools that you like, and send us your PR.
 Once upon a time there is a web page (https://devexpress.github.io/testcafe/example/) that need to assess how cool is the quality of the page. And here it comes your first task begin:
