@@ -11,6 +11,7 @@ Once upon a time there is a web page (https://devexpress.github.io/testcafe/exam
 
 
 3. We all know automation can help, show us your test-automation code to test it with BDD Style and Please Impress us by not using Katalon. <BR>
+   Please put in your README.md how to run this locally, so we can try it.
    Nice to have if you can integrate it with the CircleCI or Bitbucket Pipelines , and capture the result.
 
 
