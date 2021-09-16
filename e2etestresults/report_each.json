@@ -1,0 +1,375 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "submit-feedback-on-testcafe;submit-feedback-in-testcafe-and-verify-it-is-submitted-successfully",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Submit feedback in testcafe and verify it is submitted successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3483000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Feedback page opened",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "OS",
+                      "features",
+                      "interface",
+                      "testcafe_tried",
+                      "rating",
+                      "comments"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lavanya",
+                      "Windows",
+                      "remote#jsreuse#backgroundtests#CI#analysis",
+                      "Command Line",
+                      "true",
+                      "5",
+                      "auto comments"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter Feedback Details",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "ClickButton \"Submit\"",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Feedback Submitted Successfully",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1170000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 399000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testcafe",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "submit-feedback-on-testcafe;submit-feedback-in-testcafe-and-verify-it-is-submitted-successfully",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Submit feedback in testcafe and verify it is submitted successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3782000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Feedback page opened",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "OS",
+                      "features",
+                      "interface",
+                      "testcafe_tried",
+                      "rating",
+                      "comments"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lavanya1",
+                      "MacOS",
+                      "remote#jsreuse",
+                      "JavaScript API",
+                      "true",
+                      "2",
+                      "auto comments123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter Feedback Details",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "ClickButton \"Submit\"",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Feedback Submitted Successfully",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 295000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testcafe",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "submit-feedback-on-testcafe;submit-feedback-in-testcafe-and-verify-it-is-submitted-successfully",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Submit feedback in testcafe and verify it is submitted successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3462000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Feedback page opened",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "OS",
+                      "features",
+                      "interface",
+                      "testcafe_tried",
+                      "rating",
+                      "comments"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lavanya12",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter Feedback Details",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "ClickButton \"Submit\"",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Feedback Submitted Successfully",
+            "match": {
+              "location": "testcafetests\\features\\step-definitions\\submitfeedback.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1194000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testcafe",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "submit-feedback-on-testcafe",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Submit feedback on Testcafe",
+    "tags": [
+      {
+        "name": "@testcafe",
+        "line": 1
+      }
+    ],
+    "uri": "testcafetests\\features\\testcafefeedback.feature"
+  }
+]
