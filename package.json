@@ -30,7 +30,7 @@
     "format": "prettier --write \"testcafetests/features/**/*.{js,ts,tsx,css,html,json,feature}\"",
     "format:check": "prettier --check \"testcafetests/features/**/*.{js,ts,tsx,css,html,json,feature}\"",
     "playwright:all": "mkdir -p e2etestresults && cucumber-js -f json:e2etestresults/report.json",
-    "playwright:each": "mkdir e2etestresults && cucumber-js cucumber -f json:e2etestresults/report_each.json -t",
+    "playwright:each": "mkdir -p e2etestresults && cucumber-js cucumber -f json:e2etestresults/report_each.json -t",
     "createHtmlReport": "node reporter.js"
   }
 }

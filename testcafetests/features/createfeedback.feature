@@ -14,3 +14,4 @@ Feature: Submit feedback on Testcafe
                 | lavanya  | Windows |remote#jsreuse#backgroundtests#CI#analysis | Command Line   | true           | 5      | auto comments    |
                 | lavanya1 | MacOS   |remote#jsreuse                             | JavaScript API | true           | 2      | auto comments123 |
                 | lavanya12|         |                                           |                |                |        |                  |
+                |          |         |                                           |                |                |        |                  |

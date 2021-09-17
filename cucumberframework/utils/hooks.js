@@ -11,7 +11,8 @@ const chromiumConfig = {
 };
 const defaultConfig = {
   headless: true,
-  slowMo: 3
+  slowMo: 3,
+  chromiumSandbox:false
 };
 
 const debuggingMode = {
@@ -31,6 +32,7 @@ function playwrightConfig(browserType) {
 
 Before({timeout: 60 * 1000} , async () => {
   setDefaultTimeout(60000);
+  console.log("BROWSERTYPE::" + process.env.BROWSERTYPE);
   let browserType = process.env.BROWSERTYPE === '' || typeof process.env.BROWSERTYPE === 'undefined' ? 'chromium' : process.env.BROWSERTYPE;
   console.log('Running on browser type: '+browserType)
   browser = await playwright[browserType].launch(playwrightConfig(browserType));
