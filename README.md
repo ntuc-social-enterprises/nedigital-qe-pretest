@@ -113,5 +113,12 @@ I intentionally failed 1 test to show the exception and screenshot in the report
 your task is to create a query to show:<BR>
 | employee_id | employee_name | buddy_name | supervisor_name | team_name |
 
-
-
+**Query**
+select e1.employee_id,
+	   e1.employee_name,
+       e2.employee_name as buddy_name,
+	   e3.employee_name as supervisor_name,
+	   e1.team_name team_name
+from employee e1
+LEFT JOIN employee e2 ON e2.employee_id = e1.buddy_id
+LEFT JOIN employee e3 ON e3.employee_id = e1.supervisor_id
