@@ -1,0 +1,36 @@
+{
+  "name": "nedigital-qe-pretest",
+  "version": "1.0.0",
+  "description": "You can answer it as creative as you can, you can even show off what you know, use all the tools that you like, and send us your PR.\r Once upon a time there is a web page (https://devexpress.github.io/testcafe/example/) that need to assess how cool is the quality of the page. And here it comes your first task begin:",
+  "main": "cucumber.js",
+  "engines": {
+    "node": ">=10.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntuc-social-enterprises/nedigital-qe-pretest.git"
+  },
+  "author": "lavanya Chappa\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntuc-social-enterprises/nedigital-qe-pretest/issues"
+  },
+  "homepage": "https://github.com/ntuc-social-enterprises/nedigital-qe-pretest#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^5.2.0",
+    "playwright": "^1.5.2",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1"
+  },
+  "scripts": {
+    "format": "prettier --write \"testcafetests/features/**/*.{js,ts,tsx,css,html,json,feature}\"",
+    "format:check": "prettier --check \"testcafetests/features/**/*.{js,ts,tsx,css,html,json,feature}\"",
+    "playwright:all": "mkdir -p e2etestresults && cucumber-js -f json:e2etestresults/report.json",
+    "playwright:each": "mkdir -p e2etestresults && cucumber-js cucumber -f json:e2etestresults/report_each.json -t",
+    "createHtmlReport": "node reporter.js"
+  }
+}

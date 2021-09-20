@@ -1,0 +1,24 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:10.15.3
+
+pipelines:
+  default:  
+        - step:
+            name: ExecuteQATests
+            image: mcr.microsoft.com/playwright:focal
+            caches:
+                  - node
+            script:
+              - npm ci
+              - mkdir -p e2etestresults
+              - node node_modules/playwright/install.js
+              - URL=${TESTCAFE_URL} BROWSERTYPE=${BROWSER} npm run playwright:each -t "${TAG}"           
+            after-script:
+              - npm run createHtmlReport
+            artifacts:
+               paths:
+                  - e2etestresults/**
