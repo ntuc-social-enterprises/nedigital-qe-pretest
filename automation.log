@@ -1,0 +1,19 @@
+2021-10-11 22:10:421 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2021-10-11 22:10:697 INFO  WaitHelper:24 - element is visible..
+2021-10-11 22:10:193 INFO  ServiceHooks:39 - Eaxmple Page functionality for not tried TestCafe is pass
+2021-10-11 22:10:304 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2021-10-11 22:10:411 INFO  WaitHelper:24 - element is visible..
+2021-10-11 22:10:978 INFO  ServiceHooks:39 - I have tried TestCafe functionality is pass
+2021-10-11 22:10:565 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2021-10-11 22:10:682 INFO  WaitHelper:24 - element is visible..
+2021-10-11 22:10:787 INFO  ServiceHooks:39 - I have tried TestCafe functionality is pass
+2021-10-11 22:10:340 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2021-10-11 22:10:440 INFO  WaitHelper:24 - element is visible..
+2021-10-11 22:10:565 INFO  ExamplePage:84 - Alert message after clicking populate button Reset information before proceeding?
+2021-10-11 22:10:574 INFO  ExamplePage:96 - Alert message after clicking populate button Reset information before proceeding?
+2021-10-11 22:10:708 INFO  ExamplePage:84 - Alert message after clicking populate button Reset information before proceeding?
+2021-10-11 22:10:721 INFO  ExamplePage:96 - Alert message after clicking populate button Reset information before proceeding?
+2021-10-11 22:10:179 INFO  ServiceHooks:39 - Checking populate button functionality is pass
+2021-10-11 22:10:665 INFO  ServiceHooks:39 - create profile is pass
+2021-10-11 22:10:64 INFO  ServiceHooks:39 - create profile is pass
+2021-10-11 22:10:794 INFO  ServiceHooks:39 - create profile is pass

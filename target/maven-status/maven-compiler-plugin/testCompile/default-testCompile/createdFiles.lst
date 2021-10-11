@@ -1,0 +1,8 @@
+ntuc_cucumber\TestBase.class
+ntuc_cucumber\stepDefinations\StepDefinitions.class
+ntuc_cucumber\stepDefinations\CheckOpenedPage.class
+ntuc_cucumber\stepDefinations\CommonDefinations.class
+ntuc_cucumber\stepDefinations\ServiceHooks.class
+ntuc_cucumber\stepDefinations\CreateProfile.class
+ntuc_cucumber\stepDefinations\IsItFriday.class
+ntuc_cucumber\RunCucumberTest.class
