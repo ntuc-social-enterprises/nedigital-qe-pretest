@@ -1,21 +1,26 @@
-# QE NE Digital Pretest
+**Test Cafe BDD Framework**
 
-  You can answer it as creative as you can, you can even show off what you know, use all the tools that you like, and send us your PR.
-Once upon a time there is a web page (https://devexpress.github.io/testcafe/example/) that need to assess how cool is the quality of the page. And here it comes your first task begin:
+Automated test to verify working of Test Cafe with multiple dataset.
 
+Tools:
+Coding Language: Java (ver. 1.8)
+Build Tool: Maven
 
-1. Tell us what kind of test should be conduct (plan and why) to make sure the page is ok.
+Libraries Used:
+*Selenium*
+*Cucumber*
+*Cucumber Junit*
+*Webdriver Manager*
 
+Plugin for IDE:
+*Gherkins*
+*Cucumber for java*
 
-2. Tell us what kind of testcase you want to execute.
+Folder Structure:
+Entire code is placed under src/main/ package.
 
+java/com.nedigital.testcafe/ - contains all the source code required to execute automated checks and also .feature
+resources - .properties files
 
-3. We all know automation can help, show us your test-automation code to test it with BDD Style and Please Impress us by not using Katalon. <BR>
-   Please put in your README.md how to run this locally, so we can try it.
-   Nice to have if you can integrate it with the CircleCI or Bitbucket Pipelines , and capture the result.
-
-
-4. Every new employee at NTUC will have a buddy help him/her to tune in with environment. Every employee have their supervisor and team. Let's say that we have a table of employee where all the information mention earlier is store. The table specification is looks like this:<BR>
-| employee_id | employee_name | buddy_id | supervisor_id | team_name |<BR>
-your task is to create a query to show:<BR>
-| employee_id | employee_name | buddy_name | supervisor_name | team_name |
+Execution Point
+Execution will being from java/com.nedigital.testcafe/runner/TestRunner.java.
